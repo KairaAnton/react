@@ -13,9 +13,6 @@ function productReduser(state = InitialState, action) {
         case ACTION_TYPES.GET_PRODUCTS:
             const { product } = state;
             return {...state,product};
-            break;
-
-
          default:  return state ;
      }
 
